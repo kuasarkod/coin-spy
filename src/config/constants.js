@@ -1,0 +1,15 @@
+export const COINGECKO_BASE_URL = process.env.COINGECKO_BASE_URL || 'https://api.coingecko.com/api/v3';
+export const DEFAULT_CURRENCY = process.env.DEFAULT_CURRENCY || 'usd';
+export const DEFAULT_SORT = process.env.DEFAULT_SORT || 'market_cap';
+export const DEFAULT_LIST_COUNT = 50;
+export const SUPPORTED_CURRENCIES = ['usd', 'eur', 'gbp', 'try'];
+export const CACHE_TTL_SECONDS = Number(process.env.CACHE_TTL_SECONDS || 60);
+export const REQUEST_TIMEOUT_MS = Number(process.env.REQUEST_TIMEOUT_MS || 10000);
+export const RATE_LIMIT_INTERVAL_MS = 1200;
+export const RETRY_ATTEMPTS = 3;
+export const RETRY_DELAY_MS = 500;
+export const OFFLINE_CACHE_KEY_PREFIX = 'offline';
+export const FAVORITES_KEY = 'favorites';
+export const ALERTS_KEY = 'alerts';
+export const PREFERENCES_KEY = 'preferences';
+export const EXPORT_DIR = 'exports';
