@@ -4,7 +4,7 @@
 
 **Coded by:** kuasarkod  
 **Discord:** kuasarkod  
-**GitHub:** [Your GitHub Profile]
+**GitHub:** [github.com/kuasarkod](https://github.com/kuasarkod)
 
 ---
 
